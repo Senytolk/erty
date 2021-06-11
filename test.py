@@ -12,5 +12,7 @@ def test_check_passwd():
     assert check_passwd('user', '12345678', min_length=10) == False
     assert check_passwd('user', '12345678user', min_length=10) == False
 
-print('jklp')
-print('jy')
+def con():
+    for i in range(6):
+        print(i)
+print('loh')
